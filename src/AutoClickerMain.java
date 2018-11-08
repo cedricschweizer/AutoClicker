@@ -2,6 +2,16 @@ import java.awt.event.InputEvent;
 import java.util.Scanner;
 
 public class AutoClickerMain {
+
+    /**
+     * @author Cédric Schweizer
+     *
+     * Enter desired number of clicks and delay between the mouse-down and -up
+     *
+     * @param args
+     * @throws InterruptedException
+     */
+
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("-----AutoClicker-----");
